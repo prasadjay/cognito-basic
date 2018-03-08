@@ -1,0 +1,20 @@
+{
+  "name": "cognito-basic",
+  "version": "1.0.0",
+  "description": "Basic cognito samples",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prasad Jayashanka",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^2.0.1",
+    "aws-sdk": "^2.206.0",
+    "jsonwebtoken": "^8.2.0",
+    "jwk-to-pem": "^2.0.0",
+    "node-fetch": "^2.1.1",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {}
+}
