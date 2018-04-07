@@ -4,7 +4,7 @@ var AWS = require('aws-sdk');
 var request = require('request');
 var jwkToPem = require('jwk-to-pem');
 var jwt = require('jsonwebtoken');
-
+global.fetch = require('node-fetch');
 const poolData = {
     UserPoolId : "", // Your user pool id here
     ClientId : "" // Your client id here
